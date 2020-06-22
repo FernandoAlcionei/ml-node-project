@@ -2,7 +2,7 @@ const { integration } = require('../../config');
 
 const getCondition = (attributes) => {
   const item = attributes.find(attribute => attribute.id == 'ITEM_CONDITION');
-  return item.value_name;
+  return item ? item.value_name: '';
 }
 
 const getDescription = (descriptions) => {
