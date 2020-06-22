@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  ml-node-api:
+    image: node:latest
+    container_name: ml-node-api
+    working_dir: /home/node/app
+    volumes:
+      - .:/home/node/app
+    ports:
+      - 5000:5000
+    network_mode: "host"
+    command: 'bash -c "cd /home/node/app && rm -R node_modules || true && npm install && npm start"'
