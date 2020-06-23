@@ -18,8 +18,8 @@ module.exports = (app) => {
   const api = {};
 
   api.getList = (req, res) => {
-    const { search } = req.query;
-    const searchField = search ? search : 'query';
+    const { q } = req.query;
+    const searchField = q ? q : 'query';
 
     const productsApi = `${integration.api.search}?q=${searchField}`;
 
