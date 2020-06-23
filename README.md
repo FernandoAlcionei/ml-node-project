@@ -4,7 +4,7 @@
 
 
 - Endpoints
-  - http://localhost:5000/api/items?search=
+  - http://localhost:5000/api/items?q=
   - http://localhost:5000/api/items/MLA772921213
   
  
