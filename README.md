@@ -1,6 +1,6 @@
 # ml-node-project
 
-This project is a BFF developed to integrate with the development APIs of Mercado Libre.
+This project is a BFF developed in NodeJs to integrate with the development APIs of Mercado Libre.
 
 The project is simple because the objective of the challenge was to focus on the development of the Front-End
 
